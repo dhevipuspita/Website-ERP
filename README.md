@@ -1,1 +1,2 @@
-# FP_LaundrPemasaran
+# Final Project Aplikasi ERP Pemasaran
+
