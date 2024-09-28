@@ -1,0 +1,120 @@
+.card-body {
+  margin: 10px 10px;
+}
+
+.button-group {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 4px;
+}
+
+.button-tambah {
+  background-color: #007bff;
+  border-radius: 5px;
+  color: #fff;
+  border: none;
+  padding: 0.5rem;
+  margin-right: 3px;
+  text-decoration: none;
+}
+
+.button-cetak {
+  background-color: #17a2b8;
+  border-radius: 5px;
+  color: #fff;
+  border: none;
+  padding: 0.5rem;
+  margin-right: 3px;
+  text-decoration: none;
+}
+
+table {
+  border-collapse: collapse;
+  margin: 30px 40px;
+  width: 100%;
+}
+
+th,
+td {
+  padding: 8px;
+  border: 1px solid #ddd;
+  max-width: fit-content;
+  text-align: center;
+}
+#action {
+  white-space: nowrap;
+}
+
+td.description {
+  max-width: 250px;
+  word-wrap: break-word;
+  text-align: left;
+}
+
+th {
+  background-color: #789ea2;
+}
+
+.btn {
+  display: inline-block;
+  padding: 6px 12px;
+  font-size: 14px;
+  text-align: center;
+  text-decoration: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  color: #333;
+  margin-right: 5px;
+}
+
+.btn-edit {
+  background-color: transparent;
+  border-color: #ffc107;
+  color: #ffc107;
+}
+
+.btn-hapus {
+  background-color: transparent;
+  border-color: #dc3545;
+  color: #dc3545;
+}
+
+.btn-print {
+  background-color: transparent;
+  border-color: #3492d9;
+  color: #3492d9;
+}
+
+.btn-edit:active,
+.btn-edit:hover {
+  background-color: #ffc107;
+  color: #000;
+}
+
+.btn-hapus:active,
+.btn-hapus:hover {
+  background-color: #dc3545;
+  color: #fff;
+}
+
+.btn-print:active,
+.btn-print:hover {
+  background-color: #3492d9;
+  color: #fff;
+}
+
+.keterangan-lunas {
+  background-color: #dc3545;
+  color: white;
+  padding: 8px 10px;
+  border-radius: 4px;
+  font-size: 15px;
+}
+
+.keterangan-belum-lunas {
+  background-color: #28a745;
+  color: white;
+  padding: 8px 10px;
+  border-radius: 4px;
+  font-size: 15px;
+}

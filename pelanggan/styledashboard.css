@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+:root {
+    --primary-color: #375A63;
+    --panel-color: #FFF;
+    --text-color: #000;
+    --black-light-color: #707070;
+    --border-color: #e6e5e5;
+    --toggle-color: #DDD;
+    --box1-color: #8CC2D5;
+    --box2-color: #DED9CE;
+    --box3-color: #F98E8E;
+    --box4-color: #AEBDB9;
+    --title-icon-color: #fff;
+    --tran-05: all 0.5s ease;
+    --tran-03: all 0.3s ease;
+    --tran-03: all 0.2s ease;
+}
+
+body {
+    min-height: 100vh;
+    background-color: #fff;
+}
+
+.top {
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 20px;
+    background-color: var(--panel-color);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+.profile-details {
+    position: relative;
+    display: flex;
+    align-items: center;
+    background: #fff;
+    color: #444546;
+    border: 2px solid #fff;
+    border-radius: 6px;
+    height: 50px;
+    min-width: 100px;
+    padding: 0 15px 0 2px;
+    cursor: pointer;
+}
+
+.profile-details:hover {
+    color: #FFF;
+    background: #798CA4;
+}
+
+.profile-details .admin_name {
+    display: inline-block;
+    background-color: transparent;
+    padding: 5px 10px;
+    border-radius: 6px;
+    font-size: 15px;
+    font-weight: 500;
+    margin: 0 10px;
+    white-space: nowrap;
+}
+
+.profile-details .admin_name:hover {
+    color: #fff;
+}
+
+.profile-details .dropdown {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background: #F5F6FA;
+    border: 2px solid #EFEEF1;
+    border-radius: 6px;
+    display: none;
+    z-index: 999;
+    padding: 10px;
+}
+
+.profile-details:hover .dropdown {
+    display: block;
+}
+
+.profile-details .dropdown a {
+    display: flex;
+    padding: 10px;
+    color: #CCCBD4;
+    text-decoration: none;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 500;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.profile-details .dropdown a i {
+    margin-right: 10px;
+}
+
+.profile-details .dropdown a:hover {
+    color: #444546;
+}
+
+.tagihan-button,
+.riwayat-button {
+    padding: 10px 20px;
+    height: 150px;
+    width: 300px;
+    font-size: 30px;
+    font-weight: bold;
+    border-radius: 20px;
+    color: black;
+    border: none;
+    cursor: pointer;
+    margin: 10px 30px;
+}
+
+.tagihan-button {
+    background-color: #FF6E3C;
+}
+
+.riwayat-button {
+    background-color: #FFD74B;
+}
+
+.tagihan-button:hover {
+    background-color: #AC4C2B;
+}
+
+.riwayat-button:hover {
+    background-color: #C7A531;
+}
+
+.tagihan-button:focus,
+.riwayat-button:focus {
+    outline: none;
+}
+
+.tagihan-button:active {
+    background-color: #AC4C2B;
+}
+
+.riwayat-button:active {
+    background-color: #C7A531;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.buttons-container {
+    display: flex;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 35px;
+    font-size: 35px;
+}

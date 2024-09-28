@@ -1,0 +1,50 @@
+/* stylenota.css */
+
+.container {
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 10px;
+  }
+  
+  .head {
+    width: 300px;
+    height: 120px;
+    margin-bottom: 10px;
+    background-color: lightgrey;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 12px;
+  }
+  
+
+  table {
+    width: 300px;
+    height: 300px;
+    margin-bottom: 10px;
+    background-color: lightgrey;
+    border-radius: 10px;
+    font-size: 12px;
+    border-collapse: collapse;
+  }
+  
+  table td {
+    padding: 10px;
+  }
+   
+  .foot {
+    width: 300px;
+    height: 50px;
+    margin-bottom: 10px;
+    background-color: lightgrey;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 12px;
+  }
+  
+  
